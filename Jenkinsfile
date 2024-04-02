@@ -5,7 +5,7 @@ pipeline {
          stage('Checkout') {
             steps {
                 echo 'OK'
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/aditi090602/maven.git'
             }
         }
         
